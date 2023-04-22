@@ -1,0 +1,42 @@
+{
+  "name": "code-theme",
+  "displayName": "Code Theme",
+  "description": "Amazing Theme for Visual Studio and Visual Studio Code",
+  "version": "1.0.0",
+  "author": "Daomtthuan <dao.mt.thuan@gmail.com> (https://github.com/daomtthuan)",
+  "packageManager": "yarn@3.5.0",
+  "main": "",
+  "scripts": {
+    "build": "node ./Tools/CLI/Build"
+  },
+  "homepage": "https://github.com/daomtthuan/code-theme",
+  "repository": "https://github.com/daomtthuan/code-theme.git",
+  "readme": "https://github.com/daomtthuan/code-theme/blob/main/README.md",
+  "bugs": {
+    "email": "dao.mt.thuan@gmail.com",
+    "url": "https://github.com/daomtthuan/code-theme/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/daomtthuan/code-theme/blob/main/LICENSE"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Daomtthuan",
+      "email": "dao.mt.thuan@gmail.com",
+      "url": "https://github.com/daomtthuan"
+    }
+  ],
+  "keywords": [
+    "theme",
+    "visual studio",
+    "visual studio code",
+    "dark",
+    "light",
+    "vscode",
+    "vs"
+  ]
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="CodeTheme.2032a38f-5c64-4c2b-93bc-89e3f9d402e0" Version="1.0.0" Language="en-US" Publisher="Daomtthuan" />
+        <DisplayName>Code Theme</DisplayName>
+        <Description xml:space="preserve">Amazing Theme for Visual Studio and Visual Studio Code</Description>
+        <MoreInfo>https://github.com/daomtthuan/code-theme</MoreInfo>
+        <License>LICENSE.txt</License>
+        <Icon>Icon.ico</Icon>
+        <Tags>theme</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Packages\Dark\Code Theme Dark After.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Packages\Dark\Code Theme Dark Arc.pkgdef" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Packages\Dark\Code Theme Dark Monokai.pkgdef" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
