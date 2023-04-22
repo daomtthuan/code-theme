@@ -5,10 +5,6 @@
   "version": "1.0.0",
   "author": "Daomtthuan <dao.mt.thuan@gmail.com> (https://github.com/daomtthuan)",
   "packageManager": "yarn@3.5.0",
-  "main": "",
-  "scripts": {
-    "build": "node ./Tools/CLI/Build"
-  },
   "homepage": "https://github.com/daomtthuan/code-theme",
   "repository": "https://github.com/daomtthuan/code-theme.git",
   "readme": "https://github.com/daomtthuan/code-theme/blob/main/README.md",
