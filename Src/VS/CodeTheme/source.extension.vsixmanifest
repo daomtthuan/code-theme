@@ -6,7 +6,7 @@
         <Description xml:space="preserve">Amazing Theme for Visual Studio and Visual Studio Code</Description>
         <MoreInfo>https://github.com/daomtthuan/code-theme</MoreInfo>
         <License>LICENSE.txt</License>
-        <Icon>Icon.ico</Icon>
+        <Icon>Logo.png</Icon>
         <Tags>theme</Tags>
     </Metadata>
     <Installation>
